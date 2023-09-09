@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/textViewUsuarioVinculado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuarios Vinculados:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextUsuarioVinculado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewUsuarioVinculado"
+        android:layout_marginTop="8dp"
+        android:inputType="text"
+        android:hint="Ingrese el usuario a vincular"
+        android:minHeight="48dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp" />
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUsuarioVinculado"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/vincularButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Vincular" />
+
+        <Button
+            android:id="@+id/eliminarButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="Eliminar"
+            android:onClick="eliminarUsuario" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewTituloUsuariosVinculados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USUARIOS VINCULADOS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/buttonContainer"
+        android:layout_marginTop="16dp" />
+
+    <ListView
+        android:id="@+id/listViewUsuariosVinculados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTituloUsuariosVinculados"
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "828558161426",
+    "project_id": "tfg-i62pepea",
+    "storage_bucket": "tfg-i62pepea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828558161426:android:a2cfb06cb11b017994cacb",
+        "android_client_info": {
+          "package_name": "com.uco.tfg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828558161426-1onreo25jvu0590dq4dl78jnc9r2q24s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAhjbrkjBw5EUGHw27vJEjAQwNICmEva8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828558161426-1onreo25jvu0590dq4dl78jnc9r2q24s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
